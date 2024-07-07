@@ -1,0 +1,40 @@
+.nav {
+    background-color: #007bff;
+    padding: 5px 10px;
+    color: white;
+
+  }
+  
+  .nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav .heading {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .nav {
+      padding: 0px 10px;
+      height: 60px;
+    }
+  
+    .nav .heading {
+      font-size: 25px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .nav {
+      padding: 0px 10px 80px;
+      height: 60px;
+    }
+  
+    .nav .heading {
+      font-size: 30px;
+    }
+  }
